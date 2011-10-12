@@ -10,3 +10,19 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
+ActiveRecord::Schema.define(:version => 20111012042548) do
+
+  create_table "user_addresses", :force => true do |t|
+    t.string   "userid"
+    t.boolean  "is_current"
+    t.string   "addr_1"
+    t.string   "addr_2"
+    t.string   "city"
+    t.string   "state"
+    t.string   "zip"
+    t.string   "addr_id"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+end

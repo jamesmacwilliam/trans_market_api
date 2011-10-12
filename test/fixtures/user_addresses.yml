@@ -1,0 +1,25 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  userid: MyString
+  is_current: false
+  {: 
+  addr_1: MyString
+  addr_2: MyString
+  city: MyString
+  state: MyString
+  zip: MyString
+  addr_id: MyString
+  {: 
+
+two:
+  userid: MyString
+  is_current: false
+  {: 
+  addr_1: MyString
+  addr_2: MyString
+  city: MyString
+  state: MyString
+  zip: MyString
+  addr_id: MyString
+  {: 
